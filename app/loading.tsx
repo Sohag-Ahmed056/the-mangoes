@@ -21,7 +21,7 @@ export default function Loading() {
           লোডিং হচ্ছে...
         </h3>
         <p className="text-xs text-slate-400 font-medium">
-          আম বাজার থেকে সেরা ও তাজা আমের বিবরণ লোড করা হচ্ছে।
+       অর্গ্যানিক ভিলেজ থেকে সেরা ও তাজা আমের বিবরণ লোড করা হচ্ছে।
         </p>
       </div>
     </div>

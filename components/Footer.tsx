@@ -48,22 +48,17 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               <span className="text-3xl">🥭</span>
               <span className="text-2xl font-bold tracking-tight text-white">
-                আম বাজার
+             অর্গ্যানিক ভিলেজ
               </span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed">
               আমরা সরাসরি রাজশাহী ও চাঁপাইনবাবগঞ্জের বিশ্বস্ত আম বাগান থেকে কীটনাশক ও ফরমালিন মুক্ত পাকা আম সংগ্রহ করে সমগ্র বাংলাদেশে পৌঁছে দিই। গুণগত মানে আমরা আপসহীন।
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="#" className="hover:text-amber-400 transition-colors duration-200" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61568265947012" className="hover:text-amber-400 transition-colors duration-200" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="hover:text-amber-400 transition-colors duration-200" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="hover:text-amber-400 transition-colors duration-200" aria-label="Youtube">
-                <Youtube size={20} />
-              </a>
+              
             </div>
           </div>
 
@@ -127,18 +122,21 @@ export default function Footer() {
             <ul className="space-y-3.5 text-sm">
               <li className="flex items-start gap-2.5">
                 <MapPin className="text-emerald-500 shrink-0 mt-1" size={16} />
-                <span>পুঠিয়া, রাজশাহী ও শিবগঞ্জ, চাঁপাইনবাবগঞ্জ, বাংলাদেশ</span>
+                <span>বাঘা, রাজশাহী, বাংলাদেশ </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="text-emerald-500 shrink-0" size={16} />
-                <a href="tel:+8801700000000" className="hover:text-amber-400 transition-colors duration-200">
-                  +৮৮০ ১৭০০-০০০০০০
+                <a href="tel:+8801302243428" className="hover:text-amber-400 transition-colors duration-200">
+                  01302243428
+                </a>
+                <a href="tel:+8801796734426" className="hover:text-amber-400 transition-colors duration-200">
+                  01796734426
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="text-emerald-500 shrink-0" size={16} />
-                <a href="mailto:info@aambazar.com" className="hover:text-amber-400 transition-colors duration-200">
-                  info@aambazar.com
+                <a href="mailto: shezanmahmud650@gmail.com" className="hover:text-amber-400 transition-colors duration-200">
+                  shezanmahmud650@gmail.com
                 </a>
               </li>
             </ul>
@@ -149,7 +147,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
           <p>© {new Date().getFullYear()} আম বাজার। সর্বস্বত্ব সংরক্ষিত।</p>
           <div className="mt-2 md:mt-0 flex space-x-4">
-            <span className="hover:text-slate-400 transition-colors">ডিজাইন ও ডেভেলপমেন্ট: প্রিমিয়াম টিম</span>
+            <span className="hover:text-slate-400 transition-colors">ডিজাইন ও ডেভেলপমেন্ট: **সোহাগ**</span>
             <span className="text-slate-700">|</span>
             <span className="hover:text-slate-400 transition-colors">১০০% অর্গানিক আমের বিশ্বস্ত প্রতিষ্ঠান</span>
           </div>

@@ -42,7 +42,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-2 group">
             <span className="text-3xl filter drop-shadow-sm transition-transform duration-300 group-hover:rotate-12">🥭</span>
             <span className="text-2xl font-bold tracking-tight bg-gradient-to-r from-emerald-600 via-amber-500 to-amber-600 bg-clip-text text-transparent">
-              আম বাজার
+           অর্গ্যানিক ভিলেজ
             </span>
           </Link>
 
